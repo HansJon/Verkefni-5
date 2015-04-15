@@ -1,0 +1,59 @@
+/*
+.fadeinout {
+	position: relative;
+	height: 113px;
+	width: 250px;
+	margin: 1 em;
+}
+
+.fadeinout img {
+	position: absolute;
+	left: 0;
+	-webkit-transition: opacity 1s ease-in-out;
+}
+
+.fadeinout img:hover {
+	opacity: 0;
+	cursor: pointer;
+}
+*/
+
+
+
+body {
+	color: red;
+}
+
+.DropDownBox {
+	height: 200px;
+	width: 400px;
+
+	position: relative;
+
+	background-color: #2E2E2E;
+
+	-webkit-animation-name: dropdown; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s;
+	animation-name: dropdown;
+	animation-duration: 4s;
+}
+
+.ColorBox {
+	position: absolute;
+	top: 300px;
+}
+
+.ImageBox {
+	position: absolute;
+	top: 800px;
+}
+
+@-webkit-keyframes dropdown {
+	from {top: -250px;}
+	to {top: 0px;}
+}
+
+@keyframes dropdown {
+	from {top: -250px;}
+	to {top: 0px;}
+}
